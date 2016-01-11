@@ -1,0 +1,32 @@
+body {
+  background-color: #e1e1e1;
+}
+
+h1 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.content {
+  background-color: #fff;  
+}
+
+.content p {
+  padding: 20px;
+}
+
+.tab-title {
+  margin-right: 10px;
+}
+
+.tabs .tab-title > a {
+  background-color: #007095;
+}
+
+.tabs .tab-title > a:hover {
+  background-color: #61B6D9;
+}
+
+.tabs .tab-title.active > a:hover {
+  background-color: #fff;
+}

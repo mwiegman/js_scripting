@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>COP2831: Chapter 13 – JSON Weather</title>
+  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/weather-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.3/css/foundation.css">
+  <link rel="stylesheet" href="weather.css">
+  <script src="weather.js"></script>
+  <script src="http://api.openweathermap.org/data/2.5/weather?q=Orlando,Fl&units=imperial&callback=currWeather&id=524901&APPID=f0e5060484883a6e275c8dfb6f6030c1"></script>
+  <script src="http://api.openweathermap.org/data/2.5/forecast/daily?q=Orlando,Fl&units=imperial&callback=foreWeather&id=524901&APPID=f0e5060484883a6e275c8dfb6f6030c1"></script>
+</head>
+<body>
+  <div class="main">
+    <h1 class="text-center">JSON Weather – Meredith Wiegman</h1>
+    <div class="row">
+      <div class="medium-6 small-centered columns text-center current">     
+        <div id="currWeather"></div>
+        <div id="foreWeather"></div>  
+      </div>
+    </div>
+    <div class="row">
+      <h2 class="text-center">Weekly Forecast</h2>
+      <div class="medium-12 columns"> 
+        <ul id="forecast" class="small-block-grid-3 text-center forecast"></ul>   
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+

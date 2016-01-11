@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+
+  <title>COP2831: Chapter 7 - Regular Expressions</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="regex.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>  
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>  
+  <!--  Link to jQuery validation plugin -->
+  <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.js"></script> 
+  <script src="regex.js"></script>    
+  
+</head>
+<body>
+<div class="container">
+
+  <h1 class="text-center">Regular Expressions - Meredith Wiegman</h1>
+
+  <div class="row">   
+
+    <form id="myForm" class="form-horizontal col-sm-6 col-sm-offset-3">
+
+      <div class="form-group">
+        <label for="ssn">Please enter your Social Security Number (SSN):</label>
+        <input type="text" class="form-control" id="ssn" name="ssn" placeholder="Social Security Number" />
+      </div> 
+
+      <button type="submit" value="Submit" class="btn btn-success">Submit</button>
+
+      <button type="reset" value="Reset" class="btn btn-primary" id="reset">Reset</button>
+
+    </form>
+
+  </div>
+
+</div>
+</body>
+</html>

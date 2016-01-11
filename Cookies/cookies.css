@@ -1,0 +1,19 @@
+form {
+  margin: 20px 0;
+}
+
+.has-error input {
+  color: red;
+}
+
+label.error {  
+  background: url("unchecked.gif") no-repeat 0px 3px;
+  padding-left: 18px;
+  font-weight: normal;
+  font-style: italic;
+}
+
+#cookieData {
+  text-align: center;
+  color: #398439;
+}

@@ -1,0 +1,23 @@
+body {
+  font-family: 'Raleway', sans-serif;  
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+}
+
+.button {
+  margin-top: 100px;
+}
+
+.circle {
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  overflow: hidden;
+  width: 100px;
+  height: 100px; 
+  background-color:#000;
+  position:absolute;
+  visibility: hidden;
+}

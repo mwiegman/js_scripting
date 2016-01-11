@@ -1,0 +1,17 @@
+.thumbnails{
+	float:left;
+	width:300px;	
+}
+.thumbnails img{
+	width:125px;
+	height:auto;	
+	cursor:pointer;
+	cursor:hand;
+}
+.full-image{
+	float:left;
+}
+.full-image img{
+	height:259px;
+	width:auto;
+}

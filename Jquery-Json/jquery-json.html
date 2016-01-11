@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>COP2831: Chapter 16 – jQuery JSON Weather</title>
+  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/weather-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.3/css/foundation.css">
+  <link rel="stylesheet" href="jquery-json.css">
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="jquery-json.js"></script>  
+</head>
+<body>
+  <div class="main">
+    <h1>jQuery JSON Weather – Meredith Wiegman</h1>
+    <div class="row">
+      <div class="small-12 columns weather">
+
+        <dl class="sub-nav">
+          <dt>Show Weather:</dt>
+            <dd><a href="#orlando">Orlando</a></dd>
+            <dd><a href="#miami">Miami</a></dd>
+            <dd><a href="#new york">New York</a></dd>      
+        </dl> 
+
+        <h3><em>or</em></h3>
+
+        <h3>Search for Local Weather:</h3>
+        <form>        
+          <div class="small-12 columns">
+            <div class="row collapse">
+              <div class="small-10 columns">
+                <input id="city" type="text" >
+              </div>
+              <div class="small-2 columns">
+                <button id="search" class="button postfix">Search</button>
+              </div>
+            </div><!-- row -->
+          </div><!-- small-12 -->
+        </form> 
+
+        <div id="weather"></div>
+
+      </div><!-- weather -->
+
+    </div><!-- row -->
+    
+  </div><!-- main -->
+</body>
+</html>
+

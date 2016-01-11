@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<head>
+
+  <title>COP2831: Chapter 6 - Forms</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="forms.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>  
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>  
+  <!--  Link to jQuery validation plugin -->
+  <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.js"></script> 
+  <script src="forms.js"></script>    
+  
+</head>
+<body>
+<div class="container">
+
+  <h1 class="text-center">Forms - Meredith Wiegman</h1>
+
+  <div class="row">   
+
+    <form id="myForm" class="form-horizontal col-sm-6 col-sm-offset-3">
+
+      <div class="form-group">
+        <label for="firstName">First Name:</label>
+        <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name" />
+      </div>
+
+      <div class="form-group">
+        <label for="lastName">Last Name:</label>
+        <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name" />
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email Address:</label>
+        <input type="email" class="form-control" id="email" name="email" placeholder="Email Address" />
+      </div>
+
+      <div class="form-group">
+        <label for="Email">Confirm Email Address:</label>
+        <input type="email" class="form-control" id="emailConfirm" name="emailConfirm" placeholder="Confirm Email Address" />
+      </div>
+
+      <div class="form-group">
+        <label for="userName">User Name:</label>
+        <input type="text" class="form-control" id="userName" name="userName" placeholder="User Name" />
+      </div>
+
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" class="form-control" id="password" name="password" placeholder="Password" />
+      </div>
+
+      <div class="form-group">
+        <label for="passwordConfirm">Confirm Password:</label>
+        <input type="password" class="form-control" id="passwordConfirm" name="passwordConfirm" placeholder="Confirm Password" />
+      </div>
+
+      <div class="form-group referred">   
+        <label id="referredLabel">Referred? </label>
+
+        <div class="radio">
+         <label>
+          
+           <input type="radio" name="referred" id="yes" value="Yes" />
+          Yes
+         </label>
+       </div>
+
+       <div class="radio">
+         <label>
+          
+           <input type="radio" name="referred" id="no" value="No" />
+           No
+         </label>
+       </div>
+
+      </div>
+
+      <div class="form-group" id="referred_by">
+
+        <label for="referredBy">Referred By:</label>
+         <select id="refferedBy" name="referredBy" class="form-control" >
+           <option selected disabled hidden value=''>Select one--</option>
+           <option value="friend">Friend</option>
+           <option value="relative">Relative</option>
+           <option value="neighbor">Neighbor</option>
+           <option value="classmate">Classmate</option>     
+         </select>
+
+      </div> 
+
+      <button type="submit" value="Submit" class="btn btn-success">Submit</button>
+      <button type="reset" value="Reset" class="btn btn-primary" id="reset">Reset</button>
+
+    </form>
+
+  </div>
+
+</div>
+</body>
+</html>

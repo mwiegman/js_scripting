@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+#main {
+  background: url(store.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+
+#hours {
+  background-color: #fff;
+  color: #D58003;
+  border: 2px solid #D58003;
+  width: 65%;
+  margin: 100px auto;
+  padding: 20px;
+}
+
+#hours h2 {
+  color: #618508;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+#dtField,
+#openClose {
+  color: #618508;
+}

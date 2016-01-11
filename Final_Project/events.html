@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1">  
+
+    <title>Meredith Wiegman - COP2831 Final Project</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/final.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Stockholm</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="history.html">History</a>
+                    </li>
+                    <li>
+                        <a href="events.html">Events</a>
+                    </li>
+                    <li>
+                        <a href="places.html">Places to See</a>
+                    </li>
+                    <li>
+                        <a href="weather.html">Weather</a>
+                    </li>
+                    <li>
+                        <a href="cited.html">Works Cited</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Heading -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Stockholm
+                    <small>Welcome to the Capital of Scandinavia</small>
+                </h1>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Row -->
+        <div class="row">
+
+            <div class="col-lg-12">
+                <div class="jumbotron">
+                  <h1>Would you like to stay informed about current events in Stockholm?</h1>
+                  <p>Click the button below to sign up for our newsletter.</p>
+                  <p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                    Sign Up
+                    </button>
+                    </p>
+                </div>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Sign Up for Event Newsletter</h4>
+                      </div>
+                      <div class="modal-body">
+                
+                        <form id="myForm" class="form-horizontal col-sm-12">
+                
+                          <div class="form-group">
+                            <label for="firstName">First Name:</label>
+                            <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name" />
+                          </div>
+                
+                          <div class="form-group">
+                            <label for="lastName">Last Name:</label>
+                            <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name" />
+                          </div>
+                
+                          <div class="form-group">
+                            <label for="email">Email Address:</label>
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Email Address" />
+                          </div>
+                
+                          <div class="form-group">
+                            <label for="Email">Confirm Email Address:</label>
+                            <input type="email" class="form-control" id="emailConfirm" name="emailConfirm" placeholder="Confirm Email Address" />
+                          </div>
+
+                          <button type="submit" value="Submit" class="btn btn-success">Submit</button>
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> 
+                        </form>
+                       
+                      </div>
+                      <div class="modal-footer">                                              
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.row -->
+
+        <!-- Row -->
+        <div class="row">
+
+            <div class="col-lg-12">
+                <h3 class="page-header">Current Events <small>Mouse over event title for event description.</small></h3>
+            </div>
+
+            <div id="event1" class="col-sm-3 col-xs-6 event">                
+                <h2>Sápmi - Sami life in Sweden</h2>
+                <h2 class="text-primary">Dec. 9 - Dec. 30</h2>
+                <p id="popup1" class="popup">Sápmi is an exhibition about Sami life in Sweden. It’s a story of possibilities and difficulties, power and resistance, rights and unrighteousness. Sápmi also seeks to show how the Sami have influenced the Swedish and the Swedes have influenced the Sami. </p>                
+            </div>
+
+            <div id="event2" class="col-sm-3 col-xs-6 event">
+                <h2>Swedish and Anglo-saxon carols</h2>
+                <h2 class="text-primary">Dec. 19 - Dec. 20</h2>
+                <p id="popup2" class="popup">Christmas concert with classical Swedish Christmas songs and Anglo-saxon carols.
+                Performances by singer Karl-Magnus Fredriksson together with Linnékvintetten from Uppsala and ST Jacobs Chamber choir among others. </p>  
+            </div>
+
+            <div id="event3" class="col-sm-3 col-xs-6 event">
+                <h2>Swan Lake at Dansens hus</h2>
+                <h2 class="text-primary">Dec. 9 - Dec. 13</h2>
+                <p id="popup3" class="popup">The world's most famous and beloved ballets turned into powerful street dance. Choreograper Fredrik "Benke" Rydman, from the dance company "Bounce". Tchaikovsky's original music is mixed with contemporary songs. </p>
+            </div>
+
+            <div id="event4" class="col-sm-3 col-xs-6 event">
+                <h2>Don Giovanni at The Royal Opera</h2>
+                <h2 class="text-primary">Dec. 9 - Apr. 28</h2>
+                <p id="popup4" class="popup">The charismatic nobleman Don Giovanni's days are numbered. The women occupied the serial seducer is a victim of it´s hot operation. Death breathes him cold in the neck. And three women puts an end to his ruthless rampage. Donna Anna reveals him as a cold-blooded killer. Zerlina sees through his seduction arts. Donna Elvira abandon him when she realizes that he is unable to love for real. </p>  
+            </div>
+
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>COP2831: Final Project</p>
+                    <p>Meredith Wiegman</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- jQuery validation plugin -->
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.js"></script>
+
+    <script src="js/events.js"></script>
+
+</body>
+
+</html>
